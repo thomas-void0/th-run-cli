@@ -1,2 +1,2 @@
 # ka-cli
-toy cli
+ test cli
