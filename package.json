@@ -1,21 +1,21 @@
 {
-  "name": "ka-cli",
-  "version": "1.0.0",
-  "description": "test cli",
+  "name": "th-run-cli",
+  "version": "0.1.0",
+  "description": "脚手架项目",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "ka": "index.js"
+    "th-run-cli": "index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thomas-void0/ka-cli.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["th-run","th-run-cli"],
+  "author": "thomas-void0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/thomas-void0/ka-cli/issues"
   },
