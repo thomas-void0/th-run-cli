@@ -1,0 +1,30 @@
+{
+  "name": "ka-cli",
+  "version": "1.0.0",
+  "description": "test cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ka": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomas-void0/ka-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomas-void0/ka-cli/issues"
+  },
+  "homepage": "https://github.com/thomas-void0/ka-cli#readme",
+  "devDependencies": {
+    "commander": "^8.3.0",
+    "download-git-repo": "^3.0.2",
+    "glob": "^7.2.0",
+    "inquirer": "^8.2.0",
+    "ora": "^4.1.1"
+  }
+}
