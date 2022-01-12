@@ -3,3 +3,4 @@
 /.babelrc
 /commitlint.config.js
 /rollup.config.js
+/dist
