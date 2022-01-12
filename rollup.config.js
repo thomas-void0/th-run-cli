@@ -1,9 +1,11 @@
 import { uglify } from 'rollup-plugin-uglify';
 import babel from 'rollup-plugin-babel';
 const { preserveShebangs } = require('rollup-plugin-preserve-shebangs');
+import typescript from '@rollup/plugin-typescript';
+import { terser } from 'rollup-plugin-terser';
 
 export default {
-  input: './index.js',
+  input: './index.ts',
   output: [
     { file: './dist/main.cjs.js', format: 'cjs' },
     { file: './dist/main.module.js', format: 'es' },
@@ -16,5 +18,14 @@ export default {
     }),
     uglify(),
     preserveShebangs(),
+    typescript({
+      declaration: false,
+      module: "ESNext"
+    }),
+    terser({
+      format: {
+        comments: false,
+      },
+    }),
   ]
 }
