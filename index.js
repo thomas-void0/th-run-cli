@@ -4,8 +4,8 @@ const path = require('path')
 const fs = require('fs')
 const glob = require('glob')
 const inquirer = require('inquirer') // 按需引入
-const download = require('./lib/download')
-const remove = require('./lib/remove') // 删除文件js
+import download from "./lib/download"
+import remove from "./lib/remove" // 删除文件js
 
 function isSameName(list, projectName) {
   return list.some(n => {
