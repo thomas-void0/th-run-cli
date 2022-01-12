@@ -1,6 +1,6 @@
 {
   "name": "th-run-cli",
-  "version": "0.1.4",
+  "version": "0.1.5-alpha",
   "description": "脚手架项目",
   "main": "./dist/main.umd.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "download-git-repo": "^3.0.2",
     "glob": "^7.2.0",
     "inquirer": "^8.2.0",
-    "ora": "^6.0.1"
+    "ora": "^4.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",

@@ -1,6 +1,5 @@
-import ora from 'ora'
-
 const download = require('download-git-repo')
+const ora = require('ora')
 
 export default function (target: string) {
 	return new Promise(function (res, rej) {
