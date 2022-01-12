@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thomas-void0/ka-cli.git"
+    "url": "git+https://github.com/thomas-void0/th-run-cli"
   },
   "keywords": [
     "th-run",
@@ -21,9 +21,9 @@
   "author": "thomas-void0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thomas-void0/ka-cli/issues"
+    "url": "https://github.com/thomas-void0/th-run-cli/issues"
   },
-  "homepage": "https://github.com/thomas-void0/ka-cli#readme",
+  "homepage": "https://github.com/thomas-void0/th-run-cli#readme",
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/plugin-transform-runtime": "^7.16.8",
