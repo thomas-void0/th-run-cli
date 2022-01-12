@@ -1,6 +1,6 @@
 {
   "name": "th-run-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "脚手架项目",
   "main": "./dist/main.umd.js",
   "scripts": {
