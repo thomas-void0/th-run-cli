@@ -2,14 +2,18 @@
 
 `th-run-cli` 是一个自定义脚手架，可快速生成`react 移动端`开发模板。
 
-# 安装
+# 安装和使用
+
+使用`npx`的方式(推荐):
+
+```npx
+npx th-run-cli my-app
+```
+
+使用`npm`的方式:
 
 ```npm
 npm i th-run-cli -g
-```
 
-# 使用
-
-```shell
 th-run-cli my-app
 ```
